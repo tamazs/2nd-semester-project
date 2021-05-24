@@ -5,38 +5,51 @@ import Groups from '../views/Groups.vue'
 import About from '../views/About.vue'
 import Gallery from '../views/Gallery.vue'
 import Contact from '../views/Contact.vue'
+import i18n from '../i18n'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    redirect: `/${i18n.locale}`
   },
-  {
-    path: '/groups',
-    name: 'Groups',
-    
-    component: Groups
-  },
-  {
-    path: '/about',
-    name: 'About us',
-    
-    component: About
-  },
-  {
-    path: '/gallery',
-    name: 'Gallery',
-    
-    component: Gallery
-  },
-  {
-    path: '/contact',
-    name: 'Contact',
-    
-    component: Contact
+  { path: '/:lang',
+    component: {
+      render (c) { return c('router-view') }
+    },
+    children: [
+
+      {
+        path: '/',
+        name: 'Home',
+        component: Home
+      },
+      {
+        path: 'groups',
+        name: 'Groups',
+        
+        component: Groups
+      },
+      {
+        path: 'about',
+        name: 'About us',
+        
+        component: About
+      },
+      {
+        path: 'gallery',
+        name: 'Gallery',
+        
+        component: Gallery
+      },
+      {
+        path: 'contact',
+        name: 'Contact',
+        
+        component: Contact
+      }
+    ]
   },
 ]
 

@@ -3,7 +3,7 @@
     <div id="navbar">
       <v-card class="overflow-hidden">
         <v-app-bar
-          absolute
+          
           elevate-on-scroll
           scroll-target="#scrolling-techniques-7"
           id="desktopnav"
@@ -13,11 +13,12 @@
 
           <v-spacer></v-spacer>
 
-          <router-link to="/">Home</router-link>
-          <router-link to="/groups">Groups</router-link>
-          <router-link to="/about">About us</router-link>
-          <router-link to="/gallery">Gallery</router-link>
-          <router-link to="/contact">Contact</router-link>
+          <router-link :to="`/${$i18n.locale}`">{{ $t('nav.home') }}</router-link>
+          <router-link :to="`/${$i18n.locale}/groups`">{{ $t('nav.groups') }}</router-link>
+          <router-link :to="`/${$i18n.locale}/about`">{{ $t('nav.about') }}</router-link>
+          <router-link :to="`/${$i18n.locale}/gallery`">{{ $t('nav.gallery') }}</router-link>
+          <router-link :to="`/${$i18n.locale}/contact`">{{ $t('nav.contact') }}</router-link>
+          <LanguageSwitcher />
         </v-app-bar>
       </v-card>
     </div>
@@ -30,31 +31,31 @@
           dark
           shift
           >
-          <v-btn to="/">
-              <span>Home</span>
+          <v-btn :to="`/${$i18n.locale}`">
+              <span>{{ $t('nav.home') }}</span>
 
               <v-icon>mdi-home</v-icon>
           </v-btn>
 
-          <v-btn to="/groups">
-            <span>Groups</span>
+          <v-btn :to="`/${$i18n.locale}/groups`">
+            <span>{{ $t('nav.groups') }}</span>
 
             <v-icon>mdi-account-multiple</v-icon>
           </v-btn>
 
-          <v-btn to="/about">
-            <span>About us</span>
+          <v-btn :to="`/${$i18n.locale}/about`">
+            <span>{{ $t('nav.about') }}</span>
 
             <v-icon>mdi-information</v-icon>
           </v-btn>
 
-          <v-btn to="/gallery">
-            <span>Gallery</span>
+          <v-btn :to="`/${$i18n.locale}/gallery`">
+            <span>{{ $t('nav.gallery') }}</span>
 
             <v-icon>mdi-image</v-icon>
           </v-btn>
-          <v-btn to="/contact">
-            <span>Contact</span>
+          <v-btn :to="`/${$i18n.locale}/contact`">
+            <span>{{ $t('nav.contact') }}t</span>
 
             <v-icon>mdi-email</v-icon>
           </v-btn>
@@ -67,6 +68,10 @@
 
 export default {
   name: 'App',
+
+  components: {
+    LanguageSwitcher: () => import('@/components/LanguageSwitcher'),
+  },
 
   data: () => ({ value: 1 }),
 

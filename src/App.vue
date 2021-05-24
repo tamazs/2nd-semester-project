@@ -1,46 +1,39 @@
 <template>
-  <v-app>
+  <v-card class="overflow-hidden" id="desktopnav">
     <v-app-bar
-      app
-      color="primary"
-      dark
+      absolute
+      color="white"
+      elevate-on-scroll
+      scroll-target="#scrolling-techniques-7"
     >
-      <div class="d-flex align-center">
-        <v-img
-          alt="Vuetify Logo"
-          class="shrink mr-2"
-          contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-          transition="scale-transition"
-          width="40"
-        />
 
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
-      </div>
+      <v-toolbar-title>Title</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
       <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
+      text>
+        HOME
       </v-btn>
-    </v-app-bar>
+      <v-btn
+      text>
+        GROUPS
+      </v-btn>
+      <v-btn
+      text>
+        ABOUT US
+      </v-btn>
+      <v-btn
+      text>
+        GALLERY
+      </v-btn>
+      <v-btn
+      text>
+        CONTACT
+      </v-btn>
 
-    <v-main>
-      <router-view/>
-    </v-main>
-  </v-app>
+    </v-app-bar>
+  </v-card>
 </template>
 
 <script>
@@ -53,3 +46,18 @@ export default {
   }),
 };
 </script>
+
+<style lang="scss" scoped>
+@import url("https://use.typekit.net/srn1jpl.css");
+
+template {
+  margin: 0;
+  padding: 0;
+  font-family: 'proxima-nova', sans-serif;
+}
+
+v-btn {
+  font-family: 'proxima-nova', sans-serif;
+}
+
+</style>

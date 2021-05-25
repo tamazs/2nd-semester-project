@@ -11,5 +11,12 @@
         "scouts": "Spejdere",
         "groups": "Grupper",
         "cities": "Byer"
+    },
+    "landing": {
+        "smalltext": "Tændte skoven op",
+        "buttontext": "Tilslutte"
+    },
+    "location": {
+        "title": "Beliggenhed"
     }
 }

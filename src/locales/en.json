@@ -11,5 +11,12 @@
         "scouts": "Scouts",
         "groups": "Groups",
         "cities": "Cities"
+    },
+    "landing": {
+        "smalltext": "Lit the forest up",
+        "buttontext": "Join us"
+    },
+    "location": {
+        "title": "Location"
     }
 }

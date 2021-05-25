@@ -40,6 +40,7 @@ import VueJsCounter from 'vue-js-counter'
         justify-content: space-between;
         flex-direction: column;
         padding: 30px;
+        height: auto;
     }
 
     #number {

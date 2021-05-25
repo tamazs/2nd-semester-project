@@ -103,6 +103,7 @@ export default {
   display: none;
 }
 
+
 #desktopnav {
   background-color: white;
 }

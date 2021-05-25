@@ -6,5 +6,10 @@
         "about": "Om gruppen",
         "gallery": "Galleri",
         "contact": "Kontakt"
+    },
+    "counter": {
+        "scouts": "Spejdere",
+        "groups": "Grupper",
+        "cities": "Byer"
     }
 }

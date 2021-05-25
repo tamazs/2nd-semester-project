@@ -13,11 +13,11 @@
 
           <v-spacer></v-spacer>
 
-          <router-link :to="`/${$i18n.locale}`">{{ $t('nav.home') }}</router-link>
-          <router-link :to="`/${$i18n.locale}/groups`">{{ $t('nav.groups') }}</router-link>
-          <router-link :to="`/${$i18n.locale}/about`">{{ $t('nav.about') }}</router-link>
-          <router-link :to="`/${$i18n.locale}/gallery`">{{ $t('nav.gallery') }}</router-link>
-          <router-link :to="`/${$i18n.locale}/contact`">{{ $t('nav.contact') }}</router-link>
+          <router-link :to="`/${$i18n.locale}`" id="desknavlink">{{ $t('nav.home') }} </router-link>
+          <router-link :to="`/${$i18n.locale}/groups`" id="desknavlink">{{ $t('nav.groups') }}</router-link>
+          <router-link :to="`/${$i18n.locale}/about`" id="desknavlink">{{ $t('nav.about') }}</router-link>
+          <router-link :to="`/${$i18n.locale}/gallery`" id="desknavlink">{{ $t('nav.gallery') }}</router-link>
+          <router-link :to="`/${$i18n.locale}/contact`" id="desknavlink">{{ $t('nav.contact') }}</router-link>
           <LanguageSwitcher />
         </v-app-bar>
       </v-card>
@@ -55,7 +55,7 @@
             <v-icon>mdi-image</v-icon>
           </v-btn>
           <v-btn :to="`/${$i18n.locale}/contact`">
-            <span>{{ $t('nav.contact') }}t</span>
+            <span>{{ $t('nav.contact') }}</span>
 
             <v-icon>mdi-email</v-icon>
           </v-btn>
@@ -99,28 +99,21 @@ export default {
   font-family: 'proxima-nova', sans-serif;
 }
 
-#navbar {
+#desknavlink {
   display: none;
-}
-
-a {
-  font-size: 20px;
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
-  
-}
-
-a.router-link-active {
-  border-bottom: 3px solid #225384;
 }
 
 #desktopnav {
   background-color: white;
 }
 
+a {
+    font-size: 20px;
+    text-decoration: none;
+    }
+
 @media only screen and (min-width: 992px) {
-    #navbar {
+    #desknavlink {
     display: unset;
     }
 

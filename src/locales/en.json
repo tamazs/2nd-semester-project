@@ -6,5 +6,10 @@
         "about": "About us",
         "gallery": "Gallery",
         "contact": "Contact"
+    },
+    "counter": {
+        "scouts": "Scouts",
+        "groups": "Groups",
+        "cities": "Cities"
     }
 }

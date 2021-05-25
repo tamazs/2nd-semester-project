@@ -114,7 +114,7 @@ export default {
     #switcher {
         margin-right: 1rem;
         position: relative;
-        z-index: 999;
+        z-index: 9999999999999;
     }
 
   #flexitems-center {
@@ -139,6 +139,7 @@ export default {
 
   li {
     list-style: none;
+    background-color: white;
   }
 
   ul{

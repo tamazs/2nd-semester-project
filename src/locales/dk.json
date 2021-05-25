@@ -18,5 +18,8 @@
     },
     "location": {
         "title": "Beliggenhed"
+    },
+    "calendar": {
+        "title": "Kalender"
     }
 }

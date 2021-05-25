@@ -18,5 +18,8 @@
     },
     "location": {
         "title": "Location"
+    },
+    "calendar": {
+        "title": "Calendar"
     }
 }

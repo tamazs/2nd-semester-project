@@ -4,6 +4,7 @@
     <Counter />
     <Location />
     <Calendar />
+    <Sponsor />
   </div>
 </template>
 
@@ -12,6 +13,7 @@
   import Landing from '../components/Landing'
   import Location from '../components/Location'
   import Calendar from '../components/Calendar'
+  import Sponsor from '../components/Sponsor'
 
   export default {
     name: 'Home',
@@ -20,7 +22,8 @@
       Counter,
       Landing,
       Location,
-      Calendar
+      Calendar,
+      Sponsor
       
     },
   }

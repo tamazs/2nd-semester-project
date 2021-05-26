@@ -51,6 +51,15 @@
       </div>
       <div id="box6">
         <p id="jointext2">{{ $t('join.payment') }}</p>
+        <v-btn
+            rounded
+            color="#0A4E22"
+            id="cta-join"
+            href="https://medlem.dds.dk/member/signup/5412"
+            target="_blank"
+            >
+                {{ $t('landing.buttontext') }}
+        </v-btn>
       </div>
     </div>
   </div>
@@ -90,6 +99,7 @@
   color: #0E7432;
   letter-spacing: 3px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 #paymenttitle {
@@ -127,6 +137,8 @@
 
 #box6 {
   background-color: #0E7432;
+  display: flex;
+  flex-direction: column;
 }
 
 #contact1, #contact2, #contact3 {
@@ -159,6 +171,7 @@
     color: white;
     max-width: 400px;
     font-weight: normal;
+    margin-bottom: 80px;
 }
 
 #contacticon {
@@ -175,6 +188,6 @@
 #helentext, #steffentext {
     color: #0E7432;
     margin-left: 30px;
-
 }
+
 </style>

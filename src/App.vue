@@ -13,11 +13,11 @@
 
           <v-spacer></v-spacer>
 
-          <router-link :to="`/${$i18n.locale}`" id="desknavlink">{{ $t('nav.home') }} </router-link>
-          <router-link :to="`/${$i18n.locale}/groups`" id="desknavlink">{{ $t('nav.groups') }}</router-link>
-          <router-link :to="`/${$i18n.locale}/about`" id="desknavlink">{{ $t('nav.about') }}</router-link>
-          <router-link :to="`/${$i18n.locale}/gallery`" id="desknavlink">{{ $t('nav.gallery') }}</router-link>
-          <router-link :to="`/${$i18n.locale}/contact`" id="desknavlink">{{ $t('nav.contact') }}</router-link>
+          <router-link :to="`/${$i18n.locale}`" id="desknavlink" exact>{{ $t('nav.home') }} </router-link>
+          <router-link :to="`/${$i18n.locale}/groups`" id="desknavlink" exact>{{ $t('nav.groups') }}</router-link>
+          <router-link :to="`/${$i18n.locale}/about`" id="desknavlink" exact>{{ $t('nav.about') }}</router-link>
+          <router-link :to="`/${$i18n.locale}/gallery`" id="desknavlink" exact>{{ $t('nav.gallery') }}</router-link>
+          <router-link :to="`/${$i18n.locale}/contact`" id="desknavlink" exact>{{ $t('nav.contact') }}</router-link>
           <LanguageSwitcher />
         </v-app-bar>
       </v-card>
@@ -31,30 +31,30 @@
           dark
           shift
           >
-          <v-btn :to="`/${$i18n.locale}`">
+          <v-btn :to="`/${$i18n.locale}`" exact>
               <span>{{ $t('nav.home') }}</span>
 
               <v-icon>mdi-home</v-icon>
           </v-btn>
 
-          <v-btn :to="`/${$i18n.locale}/groups`">
+          <v-btn :to="`/${$i18n.locale}/groups`" exact>
             <span>{{ $t('nav.groups') }}</span>
 
             <v-icon>mdi-account-multiple</v-icon>
           </v-btn>
 
-          <v-btn :to="`/${$i18n.locale}/about`">
+          <v-btn :to="`/${$i18n.locale}/about`" exact>
             <span>{{ $t('nav.about') }}</span>
 
             <v-icon>mdi-information</v-icon>
           </v-btn>
 
-          <v-btn :to="`/${$i18n.locale}/gallery`">
+          <v-btn :to="`/${$i18n.locale}/gallery`" exact>
             <span>{{ $t('nav.gallery') }}</span>
 
             <v-icon>mdi-image</v-icon>
           </v-btn>
-          <v-btn :to="`/${$i18n.locale}/contact`">
+          <v-btn :to="`/${$i18n.locale}/contact`" exact>
             <span>{{ $t('nav.contact') }}</span>
 
             <v-icon>mdi-email</v-icon>

@@ -24,5 +24,13 @@
     },
     "sponsor": {
         "text": "Vesterhavsgruppen har er sponsoraftale med OK som indebærer, at OK støtter os økonomiskhver gang nogen bestiller et OK-kort gennem os og hver gang man tanker benzin eller diesel på et kort, der er tilknyttet vores aftale. Hvis du er interesseret i at støtte os på denne måde, kan du skrive til inge.thisgaard@mail.dk eller tale med en leder til vores spejdermøder."
+    },
+    "join": {
+        "contact": "Kontakte en af vores gruppeledere, Helén eller Steffen på telefon eller på mail. Besøge os på Bakkevej 14 når den afdeling, der passer til din alder, holder møde.",
+        "title": "Slutte sig til spejderne!",
+        "howtotitle": "Hvordan man kan deltage",
+        "text1": "Spejderen modtager brochuren Velkommen til DDS og et registreringskort på mødets første dag. Når nye spejdere starter i gruppen, får de en lille prøvetid på op til 3 uger, hvorefter spejderen skal tilmelde sig i gruppen skal tilmeldingsformularen afleveres til spejderlederen. Ved tilmeldingen får den nye spejder en T-shirt med gruppens logo, rabatkort til spejdersport, et tørklæde i gruppens farver og en arbejdsbog. Når de modtager deres 1. uniform, uddeles divisionsmærket, Nordsøgruppebadget. Arbejdsmaterialebogen, der er en praktisk bog om udstyr, uniformer, knuder og snørebånd, grundlæggende regler og værdier, pakkeliste til forskellige turtyper etc.",
+        "payment": "Gruppen har en valgt kasserer, og gebyrer mv betales via giro eller bank. Registreringsgebyret dækker bog, T-shirt og tørklæde. Kontingent betales halvårligt i januar og august. Betaling for ture sker direkte til afdelingslederne.",
+        "paymenttitle": "Betaling"
     }
 }

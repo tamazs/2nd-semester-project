@@ -1,6 +1,6 @@
 <template>
     <div id="landingpage">
-        <v-img :src="require('/src/assets/landing.png')" id="leftlanding"></v-img>
+        <v-img :src="require('/src/assets/landing.svg')" id="leftlanding"></v-img>
         <div id="rightlanding">
             <h1 id="landingtitle">Vesterhavs<br>gruppen</h1>
             <h3 id="desc">{{ $t('landing.smalltext') }}</h3>
@@ -8,6 +8,7 @@
                 rounded
                 color="#133454"
                 id="cta-landing"
+                :to="`/${$i18n.locale}/join`"
             >
                 {{ $t('landing.buttontext') }}
             </v-btn>
@@ -31,14 +32,13 @@ export default {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    
 }
 
 #leftlanding {
-    max-width: 1100px;
-    max-height: 850px;
-    align-self: flex-end;
+    width: 1000px;
+    height: 867px;
     z-index: 0;
+    margin-left: -120px;
 }
 
 #rightlanding {

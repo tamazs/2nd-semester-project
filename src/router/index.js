@@ -5,6 +5,7 @@ import Groups from '../views/Groups.vue'
 import About from '../views/About.vue'
 import Gallery from '../views/Gallery.vue'
 import Contact from '../views/Contact.vue'
+import Join from '../views/Join.vue'
 import i18n from '../i18n'
 
 Vue.use(VueRouter)
@@ -48,6 +49,12 @@ const routes = [
         name: 'Contact',
         
         component: Contact
+      },
+      {
+        path: 'join',
+        name: 'Join',
+        
+        component: Join
       }
     ]
   },

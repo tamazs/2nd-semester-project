@@ -106,8 +106,16 @@ export default {
 
 #desktopnav {
   background-color: white;
-  z-index: 2;
+  z-index: 99;
 }
+
+#mobilenav {
+      display: flex;
+      position: fixed;
+      z-index: 99;
+      width: 100vw;
+      bottom: 0;
+    }
 
 a {
     font-size: 20px;

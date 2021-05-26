@@ -41,6 +41,7 @@ import VueJsCounter from 'vue-js-counter'
         flex-direction: column;
         padding: 30px;
         height: auto;
+        z-index: 1;
     }
 
     #number {
@@ -80,6 +81,7 @@ import VueJsCounter from 'vue-js-counter'
         justify-content: space-around;
         flex-direction: row;
         padding: 60px;
+        z-index: 1;
     }
 
     #number {

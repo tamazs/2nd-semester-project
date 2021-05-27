@@ -81,113 +81,246 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 
 #joinustoptitle {
-  font-family: 'Alfa Slab One', cursive;
-  font-size: 4em;
-  letter-spacing: 5px;
-  padding: 400px;
-  text-align: center;
-}
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 2em;
+    letter-spacing: 5px;
+    padding-top: 200px;
+    text-align: center;
+  }
 
-#parallax {
-  align-items: center;
-  justify-items: center;
-}
+  #parallax {
+    align-items: center;
+    justify-items: center;
+  }
 
-#howtotitle {
-  font-family: 'Alfa Slab One', cursive;
-  font-size: 3em;
-  color: #0E7432;
-  letter-spacing: 3px;
-  margin-bottom: 20px;
-  text-align: center;
-}
+  #howtotitle {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 2em;
+    color: #0E7432;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 90px;
+  }
 
-#paymenttitle {
-  font-family: 'Alfa Slab One', cursive;
-  font-size: 3em;
-  color: white;
-  letter-spacing: 3px;
-}
+  #paymenttitle {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 2em;
+    color: white;
+    letter-spacing: 3px;
+  }
 
-#joinmain {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-}
+  #joinmain {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "box1"
+    "box2"
+    "box3"
+    "box5"
+    "box4"
+    "box6";
+  }
 
-#box1 {
+  #box1 {
+      display: flex;
+      flex-direction: column;
+      grid-area: box1;
+  }
+
+  #box2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    grid-area: box2;
+  }
+
+  #box4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0E7432;
+    grid-area: box4;
+
+  }
+
+  #box6 {
+    background-color: #0E7432;
     display: flex;
     flex-direction: column;
-}
+    grid-area: box6;
+  }
 
-#box2{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-}
-
-#box4 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #0E7432;
-
-}
-
-#box6 {
-  background-color: #0E7432;
-  display: flex;
-  flex-direction: column;
-}
-
-#contact1, #contact2, #contact3 {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-    margin-bottom: 10px;
-}
+  #contact1, #contact2, #contact3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+      margin-bottom: 10px;
+  }
 
 
-#box1, #box2, #box4, #box5, #box6 {
-  height: 500px;
-  padding: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  #box1, #box2, #box4, #box5, #box6 {
+    height: 500px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
- #box3 {
-  height: auto;
-  width: 1fr;
- }
+  #box3 {
+    height: auto;
+    width: 1fr;
+    grid-area: box3;
+  }
 
-#jointext1 , #jointext{
+  #jointext1 , #jointext{
+      color: #0E7432;
+      max-width: 400px;
+  }
+
+  #jointext2 {
+      color: white;
+      max-width: 400px;
+      font-weight: normal;
+      margin-bottom: 80px;
+  }
+
+  #contacticon {
+      color: #0E7432;
+  }
+
+  #mail {
+      text-decoration: none;
+      color: #0E7432;
+      margin-left: 20px;
+      font-size: 16px;
+  }
+
+  #helentext, #steffentext {
+      color: #0E7432;
+      margin-left: 30px;
+  }
+
+  #box5 {
+    grid-area: box5;
+  }
+
+@media only screen and (min-width: 688px) {
+
+  #joinustoptitle {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 4em;
+    letter-spacing: 5px;
+    padding: 400px;
+    text-align: center;
+  }
+
+  #parallax {
+    align-items: center;
+    justify-items: center;
+  }
+
+  #howtotitle {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 3em;
     color: #0E7432;
-    max-width: 400px;
-}
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
 
-#jointext2 {
+  #paymenttitle {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 3em;
     color: white;
-    max-width: 400px;
-    font-weight: normal;
-    margin-bottom: 80px;
-}
+    letter-spacing: 3px;
+  }
 
-#contacticon {
-    color: #0E7432;
-}
+  #joinmain {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "box1 box2"
+    "box3 box4"
+    "box5 box6";
+  }
 
-#mail {
-    text-decoration: none;
-    color: #0E7432;
-    margin-left: 20px;
-    font-size: 16px;
-}
+  #box1 {
+      display: flex;
+      flex-direction: column;
+  }
 
-#helentext, #steffentext {
-    color: #0E7432;
-    margin-left: 30px;
-}
+  #box2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
 
+  #box4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0E7432;
+
+  }
+
+  #box6 {
+    background-color: #0E7432;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #contact1, #contact2, #contact3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+      margin-bottom: 10px;
+  }
+
+
+  #box1, #box2, #box4, #box5, #box6 {
+    height: 500px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #box3 {
+    height: auto;
+    width: 1fr;
+  }
+
+  #jointext1 , #jointext{
+      color: #0E7432;
+      max-width: 400px;
+  }
+
+  #jointext2 {
+      color: white;
+      max-width: 400px;
+      font-weight: normal;
+      margin-bottom: 80px;
+  }
+
+  #contacticon {
+      color: #0E7432;
+  }
+
+  #mail {
+      text-decoration: none;
+      color: #0E7432;
+      margin-left: 20px;
+      font-size: 16px;
+  }
+
+  #helentext, #steffentext {
+      color: #0E7432;
+      margin-left: 30px;
+  }
+}
 </style>

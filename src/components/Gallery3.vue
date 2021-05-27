@@ -47,24 +47,51 @@ export default {
 </script>
 
 <style lang="scss">
+
 #galleryimage {
-    height: 600px;
-}
+        height: 400px;
+    }
 
-#gallery3body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px;
-}
+    #gallery3body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
 
-#gallery3title {
-    max-width: 80%;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    font-weight: normal;
-    letter-spacing: 10px;
-    color: #133454;
+    #gallery3title {
+        max-width: 80%;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-weight: normal;
+        letter-spacing: 0px;
+        color: #133454;
+        font-size: 2em;
+    }
+
+@media only screen and (min-width: 688px) {
+
+    #galleryimage {
+        height: 600px;
+    }
+
+    #gallery3body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+
+    #gallery3title {
+        max-width: 80%;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-weight: normal;
+        letter-spacing: 10px;
+        color: #133454;
+        font-size: 3em;
+    }
 }
 </style>

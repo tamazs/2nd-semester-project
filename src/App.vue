@@ -108,7 +108,7 @@ export default {
 }
 
 #mobilenav {
-      display: flex;
+      display: unset;
       position: fixed;
       z-index: 99;
       width: 100vw;

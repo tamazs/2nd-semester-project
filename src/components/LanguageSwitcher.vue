@@ -146,10 +146,13 @@ export default {
   ul{
       position: absolute;
       z-index: 9999999999999;
+      background-color: white;
+      
   }
 
   #flag {
       margin-right: 7px;
+      
   }
 
   #lan {

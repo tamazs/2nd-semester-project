@@ -1,6 +1,8 @@
 <template>
     <div id="landingpage">
-        <v-img :src="require('/src/assets/landing.svg')" id="leftlanding"></v-img>
+        <div id="leftlandingdiv">
+            <v-img :src="require('/src/assets/landing.png')" id="leftlanding"></v-img>
+        </div>
         <div id="rightlanding">
             <h1 id="landingtitle">Vesterhavs<br>gruppen</h1>
             <h3 id="desc">{{ $t('landing.smalltext') }}</h3>
@@ -34,21 +36,26 @@ export default {
     flex-direction: row;
 }
 
+#leftlandingdiv {
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: auto;
+}
+
 #leftlanding {
-    width: 1000px;
-    height: 867px;
-    z-index: 0;
-    margin-left: -120px;
+    width: 70vw;
+    height: 100%;
+    left: 0;
+    bottom: 0;
 }
 
 #rightlanding {
     display: flex;
     flex-direction: column;
-    position: relative;
-    margin-right: 200px;
     justify-content: center;
     align-items: center;
-    z-index: 2;
+    margin-right: 100px;
 }
 
 #landingtitle {
@@ -68,11 +75,11 @@ export default {
 
 #cta-landing {
     width: 170px;
+    margin: 0;
 }
 
 .v-btn__content {
     color: white;
     font-weight: bold;
 }
-
 </style>

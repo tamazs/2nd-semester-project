@@ -3,9 +3,7 @@
     <div id="navbar">
       <v-card class="overflow-hidden">
         <v-app-bar
-          
           elevate-on-scroll
-          scroll-target="#scrolling-techniques-7"
           id="desktopnav"
         >
 

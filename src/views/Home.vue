@@ -2,6 +2,7 @@
   <div id="home">
     <Landing />
     <Counter />
+    <Welcome />
     <Location />
     <Calendar />
     <Sponsor />
@@ -14,6 +15,7 @@
   import Location from '../components/Location'
   import Calendar from '../components/Calendar'
   import Sponsor from '../components/Sponsor'
+  import Welcome from '../components/Welcome'
 
   export default {
     name: 'Home',
@@ -23,7 +25,8 @@
       Landing,
       Location,
       Calendar,
-      Sponsor
+      Sponsor,
+      Welcome
       
     },
   }

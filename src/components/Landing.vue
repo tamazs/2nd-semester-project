@@ -1,7 +1,7 @@
 <template>
     <div id="landingpage">
-        <div id="leftlandingdiv">
-            <v-img :src="require('/src/assets/landing.png')" id="leftlanding"></v-img>
+        <div id="leftlandingdiv1">
+            <v-img :src="require('/src/assets/landing.png')" id="leftlanding1"></v-img>
         </div>
         <div id="rightlanding">
             <h1 id="landingtitle">Vesterhavs<br>gruppen</h1>
@@ -38,14 +38,15 @@ export default {
         position: relative;
     }
 
-    #leftlandingdiv {
+    #leftlandingdiv1 {
         bottom: 0;
         left: 0;
         height: 100%;
         width: auto;
+        position: relative;
     }
 
-    #leftlanding {
+    #leftlanding1 {
         width: 100vw;
         height: 100%;
         left: 0;
@@ -62,7 +63,6 @@ export default {
         left: 50%;
         right: 50%;
         position: absolute;
-        margin-left: 200px;
     }
 
     #landingtitle {
@@ -105,14 +105,14 @@ export default {
         text-align: center;
     }
 
-    #leftlandingdiv {
+    #leftlandingdiv1 {
         bottom: 0;
         left: 0;
         height: 100%;
         width: auto;
     }
 
-    #leftlanding {
+    #leftlanding1 {
         width: 62vw;
         height: 100%;
         left: 0;

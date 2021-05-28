@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <v-app id="app">
     <div id="navbar">
       <v-card class="overflow-hidden">
         <v-app-bar
@@ -7,7 +7,9 @@
           id="desktopnav"
         >
 
-          <v-toolbar-title>Title</v-toolbar-title>
+          <v-toolbar-title  id="toolbarlogo">
+            <img :src="require('/src/assets/logo.png')" height="40">
+          </v-toolbar-title>
 
           <v-spacer></v-spacer>
 
@@ -59,7 +61,7 @@
           </v-btn>
         </v-bottom-navigation>
       </div>
-  </div>
+  </v-app>
 </template>
 
 <script>
@@ -119,6 +121,12 @@ a {
     font-size: 20px;
     text-decoration: none;
     }
+
+#toolbarlogo {
+  margin-left: 30px;
+  top: 50%;
+  bottom: 50%;
+}
 
 @media only screen and (min-width: 992px) {
     #desknavlink {

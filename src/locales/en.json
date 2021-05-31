@@ -38,5 +38,11 @@
         "p1": "2020 has been a strange year, where we have had to change plans for many of our activities. With the exception of a few months in the spring, we have been able to hold our weekly scout meetings, but it has not turned into quite a few trips and camps.",
         "p2": "We hope that 2021 will be better, at least when we get over the winter, where we can still count on living with reasonably strict restrictions.",
         "p3": "Since we are still affected by Coronavirus, we would like to know how many people attend the meetings, so if you would like to try to be a scout, we would like to be notified before you come. You can either write an email to the address opposite or call our group leader on tel. 40 29 26 71."
+    },
+    "contact": {
+        "form": "Send us an email",
+        "name": "Name",
+        "message": "Message"
     }
+
 }

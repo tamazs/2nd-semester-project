@@ -114,7 +114,7 @@ export default {
     #switcher {
         margin-right: 1rem;
         position: relative;
-        z-index: 9999999999999;
+        z-index: 99;
     }
 
   #flexitems-center {

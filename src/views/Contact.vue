@@ -1,15 +1,15 @@
 <template>
-  <HelloWorld />
+  <ContactMain />
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+  import ContactMain from '../components/ContactMain'
 
   export default {
     name: 'Contact',
 
     components: {
-      HelloWorld,
+      ContactMain,
     },
   }
 </script>

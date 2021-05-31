@@ -13,7 +13,7 @@
 
           <v-spacer></v-spacer>
 
-          <router-link :to="`/${$i18n.locale}/home`" id="desknavlink" exact>{{ $t('nav.home') }} </router-link>
+          <router-link :to="`/${$i18n.locale}`" id="desknavlink" exact>{{ $t('nav.home') }} </router-link>
           <router-link :to="`/${$i18n.locale}/groups`" id="desknavlink" exact>{{ $t('nav.groups') }}</router-link>
           <router-link :to="`/${$i18n.locale}/about`" id="desknavlink" exact>{{ $t('nav.about') }}</router-link>
           <router-link :to="`/${$i18n.locale}/gallery`" id="desknavlink" exact>{{ $t('nav.gallery') }}</router-link>
@@ -29,7 +29,7 @@
           dark
           shift
           >
-          <v-btn :to="`/${$i18n.locale}/home`" exact>
+          <v-btn :to="`/${$i18n.locale}`" exact>
               <span>{{ $t('nav.home') }}</span>
 
               <v-icon>mdi-home</v-icon>
@@ -157,7 +157,7 @@ a {
     }
 
     #mobilenav {
-      display: none;
+    display: none;
     }
 
     a {

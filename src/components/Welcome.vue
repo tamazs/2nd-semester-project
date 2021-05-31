@@ -41,7 +41,6 @@ export default {
     #Welcometext {
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
         align-items: center;
         margin-bottom: 60px;
     }
@@ -56,6 +55,7 @@ export default {
     #p1, #p2, #p3 {
         color: white;
         max-width: 600px;
+        margin-bottom: 10px;
     }
 
     #Welcometitle {
@@ -85,7 +85,7 @@ export default {
         font-size: 3em;
         color: white;
         margin-top: 40px;
-        margin-bottom: 90px;
+        margin-bottom: 250px;
         letter-spacing: 3px;
     }
 
@@ -96,8 +96,8 @@ export default {
     }
 
 #welcomeimg3{
-        max-height: 200px;
-        max-width: 250px;
+        max-height: 100px;
+        max-width: 200px;
  }
 
 }
@@ -120,7 +120,6 @@ export default {
     #Welcometext {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
         align-items: center;
         margin-bottom: 0;
     }
@@ -136,21 +135,23 @@ export default {
     #p1, #p2, #p3 {
         color: white;
         max-width: 600px;
+        margin-bottom: 200px;
     }
 
     #welcomeimg1, #welcomeimg2, #welcomeimg3 {
-        height: 300px;
-        width: 250px;
+        height: 200px;
+        width: 150px;
         margin-bottom: 100px;
         max-height: none;
         max-width: none;
     }
 
     #welcomeimg3{
-        height: 200px;
-        width: 350px;
+        height: 100px;
+        width: 200px;
         max-height: none;
         max-width: none;
+        margin-top: 100px;
     }
 }
 </style>

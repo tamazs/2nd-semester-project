@@ -13,7 +13,7 @@
 
           <v-spacer></v-spacer>
 
-          <router-link :to="`/${$i18n.locale}`" id="desknavlink" exact>{{ $t('nav.home') }} </router-link>
+          <router-link :to="`/${$i18n.locale}/home`" id="desknavlink" exact>{{ $t('nav.home') }} </router-link>
           <router-link :to="`/${$i18n.locale}/groups`" id="desknavlink" exact>{{ $t('nav.groups') }}</router-link>
           <router-link :to="`/${$i18n.locale}/about`" id="desknavlink" exact>{{ $t('nav.about') }}</router-link>
           <router-link :to="`/${$i18n.locale}/gallery`" id="desknavlink" exact>{{ $t('nav.gallery') }}</router-link>
@@ -22,8 +22,6 @@
         </v-app-bar>
       </v-card>
     </div>
-      <router-view />
-
       <div id="mobilenav">
         <v-bottom-navigation
           v-model="value"
@@ -31,7 +29,7 @@
           dark
           shift
           >
-          <v-btn :to="`/${$i18n.locale}`" exact>
+          <v-btn :to="`/${$i18n.locale}/home`" exact>
               <span>{{ $t('nav.home') }}</span>
 
               <v-icon>mdi-home</v-icon>
@@ -61,6 +59,9 @@
           </v-btn>
         </v-bottom-navigation>
       </div>
+      <transition name="view">
+        <router-view />
+      </transition>
   </v-app>
 </template>
 
@@ -105,8 +106,11 @@ export default {
 
 
 #desktopnav {
-  background-color: white;
-  z-index: 99;
+background-color: white;
+z-index: 99;
+position: fixed;
+width: 100vw;
+top: 0;
 }
 
 #mobilenav {
@@ -120,12 +124,31 @@ export default {
 a {
     font-size: 20px;
     text-decoration: none;
+    margin: 0;
     }
 
 #toolbarlogo {
   margin-left: 30px;
   top: 50%;
   bottom: 50%;
+}
+
+.view-enter-active, .view-leave-active {
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease;
+}
+
+.view-enter-active {
+  transition-delay: 0.5s;
+}
+
+.view-enter, .view-leave-to {
+  opacity: 0;
+  transform: translateX(-200px);
+}
+
+.view-enter-to, .view-leave {
+  opacity: 1;
+  transform: translateX(0px);
 }
 
 @media only screen and (min-width: 992px) {

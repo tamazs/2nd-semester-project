@@ -139,13 +139,13 @@ export default {
 
   li {
     list-style: none;
-    z-index: 9999999999999;
+    z-index: 99;
     
   }
 
   ul{
       position: absolute;
-      z-index: 9999999999999;
+      z-index: 98;
       background-color: white;
       
   }

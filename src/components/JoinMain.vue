@@ -14,7 +14,7 @@
           class="text-center"
           cols="12"
           >
-            <h1 class="display-1 font-weight-thin mb-4" id="joinustoptitle">
+            <h1 id="joinustoptitle">
             {{ $t('join.title') }}
             </h1>
           </v-col>

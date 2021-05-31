@@ -124,7 +124,7 @@ export default {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        right: 5%;
+        right: 0%;
         top: 50%;
         bottom: 50%;
         position: absolute;

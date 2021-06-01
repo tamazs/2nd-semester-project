@@ -43,6 +43,18 @@
         "form": "Send us an email",
         "name": "Name",
         "message": "Message"
+    },
+    "about": {
+        "title": "About us",
+        "text": "The North Sea group is an old group in Esbjerg, we cover the entire city of Esbjerg as well as the Skads / Andrup, Tjæreborg, Tarp / Bryndum areas. We are part of DDS - The Danish Scout Corps and Horns Rev Division. At DDS, we work from the scout idea that was founded by Lord BADEN-POWELL in England over 100 years ago! Does that sound boring? - It is not! We do not only use maps and compasses to find our way. It's easier with GPS. We have learned the second thing. We do not always follow old ladies across the road, we would rather go for long walks, make bonfires, toast marshmallows, build with rafters, sing, dance, play, get crazy ideas and try them out, cuddle in the sleeping bag, laugh, giggle, scout tease. There is also something you must not do: namely to bully, be a leader, not help each other. And we dare and will make demands on our scouts. DDS is not affiliated with any religion, we hold all faiths.",
+        "title2": "Our goals",
+        "text2": "Some of our goals are: We want to be forward-looking and determined. We dare to develop children and young people to take part in and take responsibility for themselves and society. We dare to show profit and willingness to take risks. We do development, training and education that the scouts can use in their daily scout work. And later in their working lives. We trade and develop the scouts via the focus areas: Scouts against bullying. Scouts for attention to nature and the environment. Scouts for a healthy body and good food. Scouts for increased integration into society.",
+        "title3": "Our values",
+        "smalltitle1": "Fun",
+        "smalltitle2": "Adventure",
+        "smalltitle3": "Community",
+        "smalltitle4": "Friendship",
+        "title4": "Dress code"
     }
 
 }

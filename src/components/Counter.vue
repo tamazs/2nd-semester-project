@@ -2,29 +2,25 @@
     <div id="counter">
         <div id="scoutnumber">
             <div id="numberplus">
-                <VueJsCounter id="number" end="20"></VueJsCounter>
+                <h1 id="number">20</h1>
                 <p id="number">+</p>
             </div>
             <p id="countertext">{{ $t('counter.scouts') }} </p>
         </div>
         <div id="groupnumber">
-            <VueJsCounter id="number" end="5"></VueJsCounter>
+                <h1 id="number">5</h1>
             <p id="countertext">{{ $t('counter.groups') }} </p>
         </div>
         <div id="citynumber">
-            <VueJsCounter id="number" end="6"></VueJsCounter>
+                <h1 id="number">6</h1>
             <p id="countertext">{{ $t('counter.cities') }} </p>
         </div>
     </div>
 </template>
 
 <script>
-import VueJsCounter from 'vue-js-counter'
     export default {
-        name: 'Counter',
-        components: {
-            VueJsCounter 
-        }
+        name: 'Counter'
     }
 </script>
 

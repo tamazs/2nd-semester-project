@@ -43,5 +43,17 @@
         "form": "Send os en e-mail",
         "name": "Navn",
         "message": "Besked"
+    },
+    "about": {
+        "title": "Om os",
+        "text": "Vesterhavsgruppen er en gammel gruppe i Esbjerg, vi dækker hele Esbjerg by samt Skads/Andrup, Tjæreborg, Tarp/Bryndum områderne. Vi er en del af DDS - Det Danske Spejderkorps og Horns Rev Division. I DDS arbejder vi ud fra spejder ideen, der blev grundlagt af Lord BADEN-POWELL i England for over 100 år siden! Lyder det kedeligt? - Det er det ikke! Vi bruger ikke kun kort og kompas til at finde vej. Det er nemmere med GPS. Det andet har vi nemlig lært. Vi følger ikke altid gamle damer over vejen, vi vil hellere gå lange ture, lave bål, riste skumfiduser, bygge med rafter, synge, danse, lege, få skøre ideer og afprøve dem, hygge i soveposen, grine, fnise, spejderdrille. Der er også noget man ikke må: nemlig at mobbe, være lede, ikke hjælpe hinanden. Og vi tør og vil stille krav til vores spejdere. DDS er ikke tilknyttet nogen religion, vi rummer alle trosretninger.",
+        "title2": "Vores mål",
+        "text2": "Nogle af vores mål er: Vi vil være fremadrettede og beslutsomme. Vi tør udvikle børn og unge til at tage del i og ansvar for sig selv og samfundet. Vi tør at vise overskud og risikovilje. Vi gør udvikling, træning og uddannelse, som spejderne kan bruge i deres daglige spejderarbejde. Og senere i deres arbejdsliv. Vi handler og udvikler spejderne via fokusområderne: Spejdere mod mobning. Spejdere for opmærksomhed på natur og miljø. Spejdere for en sund krop og god mad. Spejdere for en øget integration i samfundet.",
+        "title3": "Vores værdier",
+        "smalltitle1": "Sjovt",
+        "smalltitle2": "Eventyr",
+        "smalltitle3": "Fællesskab",
+        "smalltitle4": "Venskab",
+        "title4": "Dress code"
     }
 }

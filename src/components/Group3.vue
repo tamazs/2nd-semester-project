@@ -1,18 +1,18 @@
 <template>
-    <div id="group1body">
-        <div id="group1text">
-            <h1 id="group1title">Mikro</h1>
-            <p id="mikrotext">{{ $t('groups.group1text') }}</p>
+    <div id="group3body">
+        <div id="group3text">
+            <h1 id="group3title">Junior</h1>
+            <p id="juniortext">{{ $t('groups.group3text') }}</p>
         </div>
-        <div id="group1pic">
-            <v-img :src="require('/src/assets/mikro.png')" id="mikropic"></v-img>
+        <div id="group3pic">
+            <v-img :src="require('/src/assets/junior.png')" id="juniorpic"></v-img>
         </div>
     </div>
 </template>
 
 <script>
 export default {
-    name: "Group1"
+    name: "Group3"
 }
 </script>
 
@@ -20,7 +20,7 @@ export default {
 @import url("https://use.typekit.net/srn1jpl.css");
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 
-#group1body {
+#group3body {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -29,7 +29,7 @@ export default {
         height: auto;
     }
 
-    #group1title {
+    #group3title {
         font-family: 'Alfa Slab One', cursive;
         font-size: 2em;
         color: #225384;
@@ -38,12 +38,12 @@ export default {
         letter-spacing: 3px;
     }
 
-    #mikrotext {
+    #juniortext {
         color: #225384;
         max-width: 600px;
     }
 
-    #mikropic {
+    #juniorpic {
         top: 40%;
         right: 0;
         bottom: 0;
@@ -51,7 +51,7 @@ export default {
         width: 80vw;
     }
 
-    #group1pic {
+    #group3pic {
         right: 0;
         bottom: 0;
         height: 100%;
@@ -60,7 +60,7 @@ export default {
 
 @media only screen and (min-width: 688px) {
 
-    #group1body {
+    #group3body {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -69,7 +69,7 @@ export default {
         height: auto;
     }
 
-    #group1title {
+    #group3title {
         font-family: 'Alfa Slab One', cursive;
         font-size: 3em;
         color: #225384;
@@ -78,12 +78,12 @@ export default {
         letter-spacing: 3px;
     }
 
-    #mikrotext {
+    #juniortext {
         color: #225384;
         max-width: 600px;
     }
 
-    #mikropic {
+    #juniorpic {
         top: 0;
         right: 0;
         bottom: 0;
@@ -91,7 +91,7 @@ export default {
         width: 62vw;
     }
 
-    #group1pic {
+    #group3pic {
         right: 0;
         bottom: 0;
         height: 100%;

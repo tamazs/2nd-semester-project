@@ -1,18 +1,18 @@
 <template>
-    <div id="group1body">
-        <div id="group1text">
-            <h1 id="group1title">Mikro</h1>
-            <p id="mikrotext">{{ $t('groups.group1text') }}</p>
+    <div id="group5body">
+        <div id="group5text">
+            <h1 id="group5title">Klan</h1>
+            <p id="klantext">{{ $t('groups.group5text') }}</p>
         </div>
-        <div id="group1pic">
-            <v-img :src="require('/src/assets/mikro.png')" id="mikropic"></v-img>
+        <div id="group5pic">
+            <v-img :src="require('/src/assets/clan.png')" id="klanpic"></v-img>
         </div>
     </div>
 </template>
 
 <script>
 export default {
-    name: "Group1"
+    name: "Group5"
 }
 </script>
 
@@ -20,16 +20,17 @@ export default {
 @import url("https://use.typekit.net/srn1jpl.css");
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 
-#group1body {
+#group5body {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         padding: 30px;
         align-items: center;
         height: auto;
+        margin-bottom: 40px;
     }
 
-    #group1title {
+    #group5title {
         font-family: 'Alfa Slab One', cursive;
         font-size: 2em;
         color: #225384;
@@ -38,12 +39,12 @@ export default {
         letter-spacing: 3px;
     }
 
-    #mikrotext {
+    #klantext {
         color: #225384;
         max-width: 600px;
     }
 
-    #mikropic {
+    #klanpic {
         top: 40%;
         right: 0;
         bottom: 0;
@@ -51,7 +52,7 @@ export default {
         width: 80vw;
     }
 
-    #group1pic {
+    #group5pic {
         right: 0;
         bottom: 0;
         height: 100%;
@@ -60,7 +61,7 @@ export default {
 
 @media only screen and (min-width: 688px) {
 
-    #group1body {
+    #group5body {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -69,7 +70,7 @@ export default {
         height: auto;
     }
 
-    #group1title {
+    #group5title {
         font-family: 'Alfa Slab One', cursive;
         font-size: 3em;
         color: #225384;
@@ -78,12 +79,12 @@ export default {
         letter-spacing: 3px;
     }
 
-    #mikrotext {
+    #klantext {
         color: #225384;
         max-width: 600px;
     }
 
-    #mikropic {
+    #klanpic {
         top: 0;
         right: 0;
         bottom: 0;
@@ -91,7 +92,7 @@ export default {
         width: 62vw;
     }
 
-    #group1pic {
+    #group5pic {
         right: 0;
         bottom: 0;
         height: 100%;

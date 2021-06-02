@@ -89,9 +89,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 
 #aboutmain {
+        margin-top: 120px;
+        height: auto;
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 100vw;
+        grid-template-rows: auto auto auto auto auto auto auto;
         grid-template-areas: 
         "boxau1"
         "boxau2"
@@ -135,10 +137,12 @@
 
     #boxau4 {
         grid-area: boxau4;
-        height: 500px;
-        display: block;
+        height: auto;
         margin: 0;
         padding: 0;
+        min-width: 100%;
+        top: 0;
+        left: 0;
     }
 
     #boxau5 {
@@ -183,9 +187,10 @@
     }
 
     #video {
-        height: 500px;
-        width: 100%;
-        display: block;
+        top: 0;
+        left: 0;
+        height: auto;
+        width: 100vw;
         margin: 0;
         padding: 0;
     }
@@ -229,8 +234,8 @@
     }
 
     #powellpic {
-        max-height: 600px;
-        max-width: 500px;
+        max-height: 400px;
+        max-width: 300px;
         padding: 0;
     }
 
@@ -254,6 +259,7 @@
 @media only screen and (min-width: 890px) {
 
     #aboutmain {
+        margin-top: 0;
         height: auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -303,10 +309,11 @@
     #boxau4 {
         grid-area: boxau4;
         height: auto;
-        width: 2fr;
-        display: block;
         margin: 0;
-        padding: 0;
+        width: 100vw;
+        top: 0;
+        left: 0;
+        overflow: hidden;
     }
 
     #boxau5 {
@@ -354,9 +361,10 @@
     }
 
     #video {
+        top: 0;
+        left: 0;
         height: auto;
-        width: 100%;
-        display: block;
+        width: 100vw;
         margin: 0;
         padding: 0;
     }
@@ -400,6 +408,8 @@
     }
 
     #powellpic {
+        max-width: none;
+        max-height: none;
         height: 800px;
         width: 200px;
     }

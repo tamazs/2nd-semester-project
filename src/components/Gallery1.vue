@@ -50,6 +50,7 @@ export default {
 
 #galleryimage {
         height: 400px;
+        width: 100%;
     }
 
     #gallery1body {
@@ -70,10 +71,12 @@ export default {
         font-size: 2em;
     }
 
+
 @media only screen and (min-width: 688px) {
 
     #galleryimage {
         height: 600px;
+        width: 100%;
     }
 
     #gallery1body {

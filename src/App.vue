@@ -94,6 +94,10 @@ export default {
 <style lang="scss">
 @import url("https://use.typekit.net/srn1jpl.css");
 
+html {
+  scroll-behavior: smooth;
+}
+
 #app {
   margin: 0;
   padding: 0;

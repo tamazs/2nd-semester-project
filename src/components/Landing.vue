@@ -14,6 +14,7 @@
             >
                 {{ $t('landing.buttontext') }}
             </v-btn>
+            <a href="#Welcome" id="readmore">{{ $t('landing.buttontext2') }}</a>
         </div>
     </div>
 </template>
@@ -88,6 +89,16 @@ export default {
         margin: 0;
     }
 
+    #readmore {
+        color: white;
+        width: 170px;
+        text-align: center;
+        margin: 0;
+        margin-top: 13px;
+        font-size: 16px;
+        font-weight: lighter;
+    }
+
     .v-btn__content {
         color: white;
         font-weight: bold;
@@ -151,6 +162,16 @@ export default {
     #cta-landing {
         width: 170px;
         margin: 0;
+    }
+
+    #readmore {
+        color: #133454;
+        width: 170px;
+        text-align: center;
+        margin: 0;
+        margin-top: 13px;
+        font-size: 16px;
+        font-weight: lighter;
     }
 
     .v-btn__content {

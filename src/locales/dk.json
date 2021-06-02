@@ -13,11 +13,13 @@
         "cities": "Byer"
     },
     "landing": {
-        "smalltext": "Tændte skoven op",
-        "buttontext": "Tilslutte"
+        "smalltext": "Vær forberedt",
+        "buttontext": "Tilslutte",
+        "buttontext2": "Læs mere"
     },
     "location": {
-        "title": "Beliggenhed"
+        "title": "Beliggenhed",
+        "text": "Vores hytte er et hyggeligt sted. Der bruger vi tid sammen på at spille spil, lære færdigheder ude i naturen og have det sjovt. Kabinen er udstyret med mange forskellige værktøjer, som spejderne lærer at bruge. Der er også plads, hvor vi spiser god mad og spiller sjove spil."
     },
     "calendar": {
         "title": "Kalender"

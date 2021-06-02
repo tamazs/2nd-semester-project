@@ -13,11 +13,13 @@
         "cities": "Cities"
     },
     "landing": {
-        "smalltext": "Lit the forest up",
-        "buttontext": "Join us"
+        "smalltext": "Be prepared",
+        "buttontext": "Join us",
+        "buttontext2": "Read more"
     },
     "location": {
-        "title": "Location"
+        "title": "Location",
+        "text": "Our cottage is a cozy place. There we spend time together playing games, learning skills in nature and having fun. The cabin is equipped with many different tools that the scouts learn to use. There is also space where we eat good food and play fun games."
     },
     "calendar": {
         "title": "Calendar"

@@ -9,8 +9,8 @@
     },
     "counter": {
         "scouts": "Spejdere",
-        "groups": "Grupper",
-        "cities": "Byer"
+        "events": "Begivenheder",
+        "leaders": "Leder pr. 5 spejdere"
     },
     "landing": {
         "smalltext": "Vær forberedt",

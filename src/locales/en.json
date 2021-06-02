@@ -9,8 +9,8 @@
     },
     "counter": {
         "scouts": "Scouts",
-        "groups": "Groups",
-        "cities": "Cities"
+        "events": "Events",
+        "leaders": "Leader per 5 scouts"
     },
     "landing": {
         "smalltext": "Be prepared",

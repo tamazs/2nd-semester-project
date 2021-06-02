@@ -1,19 +1,16 @@
 <template>
     <div id="counter">
         <div id="scoutnumber">
-            <div id="numberplus">
-                <h1 id="number">20</h1>
-                <p id="number">+</p>
-            </div>
+            <h1 id="number">20+</h1>
             <p id="countertext">{{ $t('counter.scouts') }} </p>
         </div>
         <div id="groupnumber">
-                <h1 id="number">5</h1>
-            <p id="countertext">{{ $t('counter.groups') }} </p>
+            <h1 id="number">100+</h1>
+            <p id="countertext">{{ $t('counter.events') }} </p>
         </div>
         <div id="citynumber">
-                <h1 id="number">6</h1>
-            <p id="countertext">{{ $t('counter.cities') }} </p>
+            <h1 id="number">1</h1>
+            <p id="countertext">{{ $t('counter.leaders') }} </p>
         </div>
     </div>
 </template>
@@ -61,11 +58,6 @@
         font-size: 20px;
     }
 
-    #numberplus {
-        display: flex;
-        flex-direction: row;
-    }
-
 @media only screen and (min-width: 688px) {
 
     #counter {
@@ -99,11 +91,6 @@
         font-family: 'proxima-nova', sans-serif;
         color: white;
         font-size: 20px;
-    }
-
-    #numberplus {
-        display: flex;
-        flex-direction: row;
     }
 }
 

@@ -85,8 +85,15 @@ export default {
         font-size: 3em;
         color: white;
         margin-top: 40px;
-        margin-bottom: 250px;
+        margin-bottom: 50px;
         letter-spacing: 3px;
+    }
+
+    #Welcometext {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 200px;
     }
 
 #welcomeimg1, #welcomeimg2, #welcomeimg3 {
@@ -122,6 +129,7 @@ export default {
         flex-direction: column;
         align-items: center;
         margin-bottom: 0;
+        margin-top: 200px;
     }
 
     #Welcomepics {
@@ -135,7 +143,7 @@ export default {
     #p1, #p2, #p3 {
         color: white;
         max-width: 600px;
-        margin-bottom: 200px;
+        margin-bottom: 100px;
     }
 
     #welcomeimg1, #welcomeimg2, #welcomeimg3 {
@@ -151,7 +159,7 @@ export default {
         width: 200px;
         max-height: none;
         max-width: none;
-        margin-top: 100px;
+        margin-top: 50px;
     }
 }
 </style>

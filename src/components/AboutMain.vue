@@ -137,12 +137,11 @@
 
     #boxau4 {
         grid-area: boxau4;
-        height: auto;
+        height: 200px;
         margin: 0;
         padding: 0;
         min-width: 100%;
-        top: 0;
-        left: 0;
+        overflow: hidden;
     }
 
     #boxau5 {
@@ -187,8 +186,6 @@
     }
 
     #video {
-        top: 0;
-        left: 0;
         height: auto;
         width: 100vw;
         margin: 0;
@@ -259,11 +256,11 @@
 @media only screen and (min-width: 890px) {
 
     #aboutmain {
-        margin-top: 0;
+        margin-top: 150px;
         height: auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr auto auto auto 1fr;
         grid-template-areas: 
         "boxau1 boxau2"
         "boxau3 boxau3"
@@ -308,11 +305,10 @@
 
     #boxau4 {
         grid-area: boxau4;
-        height: auto;
+        height: 800px;
         margin: 0;
+        padding: 0;
         width: 100vw;
-        top: 0;
-        left: 0;
         overflow: hidden;
     }
 
@@ -361,8 +357,6 @@
     }
 
     #video {
-        top: 0;
-        left: 0;
         height: auto;
         width: 100vw;
         margin: 0;
@@ -408,10 +402,8 @@
     }
 
     #powellpic {
-        max-width: none;
-        max-height: none;
-        height: 800px;
-        width: 200px;
+        max-width: 400px;
+        max-height: 600px;
     }
 
     #dress {
@@ -419,7 +411,6 @@
         max-width: 600px;
         margin: 0;
         padding: 0;
-        top: 25%;
     }
 
     #aboutrow1 {

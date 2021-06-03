@@ -50,7 +50,6 @@ export default {
 
 #galleryimage {
         height: 400px;
-        width: 100%;
     }
 
     #gallery1body {
@@ -76,7 +75,6 @@ export default {
 
     #galleryimage {
         height: 600px;
-        width: 100%;
     }
 
     #gallery1body {

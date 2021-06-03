@@ -2,7 +2,9 @@
     <div id="group4body">
         <div id="group4text">
             <h1 id="group4title">Trop</h1>
+            <p id="troptime">{{ $t('groups.group4time') }}</p>
             <p id="troptext">{{ $t('groups.group4text') }}</p>
+            <p id="tropleader">{{ $t('groups.group4leader') }} <a href="mailto:trop@vessterhavsgruppen.dk" id="tropmail">trop@vessterhavsgruppen.dk</a></p>
         </div>
         <div id="group4pic">
             <v-img :src="require('/src/assets/trop.png')" id="troppic"></v-img>
@@ -59,6 +61,21 @@ export default {
         width: auto;
     }
 
+    #troptime {
+        color: white;
+    }
+    
+    #tropleader {
+        color: white;
+    }
+
+    #tropmail {
+        color: white;
+        font-size: 16px;
+        text-decoration: underline;
+        margin: 0;
+    }
+
 @media only screen and (min-width: 688px) {
 
     #group4body {
@@ -100,6 +117,24 @@ export default {
         bottom: 0;
         height: 100%;
         width: auto;
+    }
+
+    #troptime {
+        color: white;
+        text-align: right;
+    }
+    
+    #tropleader {
+        color: white;
+        text-align: right;
+    }
+
+    #tropmail {
+        color: white;
+        font-size: 16px;
+        text-decoration: underline;
+        text-align: right;
+        margin: 0;
     }
 }
 

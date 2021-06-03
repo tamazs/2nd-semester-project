@@ -2,7 +2,9 @@
     <div id="group2body">
         <div id="group2text">
             <h1 id="group2title">Mini</h1>
+            <p id="minitime">{{ $t('groups.group2time') }}</p>
             <p id="minitext">{{ $t('groups.group2text') }}</p>
+            <p id="minileader">{{ $t('groups.group2leader') }} <a href="mailto:mini@vesterhavsgruppen.dk" id="minimail">mini@vesterhavsgruppen.dk</a></p>
         </div>
         <div id="group2pic">
             <v-img :src="require('/src/assets/mini.png')" id="minipic"></v-img>
@@ -59,6 +61,21 @@ export default {
         width: auto;
     }
 
+    #minitime {
+        color: white;
+    }
+    
+    #minileader {
+        color: white;
+    }
+
+    #minimail {
+        color: white;
+        font-size: 16px;
+        text-decoration: underline;
+        margin: 0;
+    }
+
 @media only screen and (min-width: 688px) {
 
     #group2body {
@@ -100,6 +117,24 @@ export default {
         bottom: 0;
         height: 100%;
         width: auto;
+    }
+
+    #minitime {
+        color: white;
+        text-align: right;
+    }
+    
+    #minileader {
+        color: white;
+        text-align: right;
+    }
+
+    #minimail {
+        color: white;
+        font-size: 16px;
+        text-decoration: underline;
+        text-align: right;
+        margin: 0;
     }
 }
 

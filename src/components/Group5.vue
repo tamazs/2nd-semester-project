@@ -2,7 +2,9 @@
     <div id="group5body">
         <div id="group5text">
             <h1 id="group5title">Klan</h1>
+            <p id="klantime">{{ $t('groups.group5time') }}</p>
             <p id="klantext">{{ $t('groups.group5text') }}</p>
+            <p id="klanleader">{{ $t('groups.group5leader') }} <a href="mailto:klan@vessterhavsgruppen.dk" id="klanmail">klan@vessterhavsgruppen.dk</a></p>
         </div>
         <div id="group5pic">
             <v-img :src="require('/src/assets/clan.png')" id="klanpic"></v-img>
@@ -57,6 +59,21 @@ export default {
         bottom: 0;
         height: 100%;
         width: auto;
+    }
+
+    #klantime {
+        color: #225384;
+    }
+    
+    #klanleader {
+        color: #225384;
+    }
+
+    #klanmail {
+        color: #225384;
+        font-size: 16px;
+        text-decoration: underline;
+        margin: 0;
     }
 
 @media only screen and (min-width: 688px) {

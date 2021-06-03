@@ -2,7 +2,9 @@
     <div id="group1body">
         <div id="group1text">
             <h1 id="group1title">Mikro</h1>
+            <p id="mikrotime">{{ $t('groups.group1time') }}</p>
             <p id="mikrotext">{{ $t('groups.group1text') }}</p>
+            <p id="mikroleader">{{ $t('groups.group1leader') }} <a href="mailto:mikro@vesterhavsgruppen.dk" id="mikromail">mikro@vesterhavsgruppen.dk</a></p>
         </div>
         <div id="group1pic">
             <v-img :src="require('/src/assets/mikro.png')" id="mikropic"></v-img>
@@ -56,6 +58,21 @@ export default {
         bottom: 0;
         height: 100%;
         width: auto;
+    }
+
+    #mikrotime {
+        color: #225384;
+    }
+    
+    #mikroleader {
+        color: #225384;
+    }
+
+    #mikromail {
+        color: #225384;
+        font-size: 16px;
+        text-decoration: underline;
+        margin: 0;
     }
 
 @media only screen and (min-width: 688px) {

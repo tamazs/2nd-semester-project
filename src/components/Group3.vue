@@ -2,7 +2,9 @@
     <div id="group3body">
         <div id="group3text">
             <h1 id="group3title">Junior</h1>
+            <p id="juniortime">{{ $t('groups.group3time') }}</p>
             <p id="juniortext">{{ $t('groups.group3text') }}</p>
+            <p id="juniorleader">{{ $t('groups.group3leader') }} <a href="mailto:junior@vessterhavsgruppen.dk" id="juniormail">junior@vessterhavsgruppen.dk</a></p>
         </div>
         <div id="group3pic">
             <v-img :src="require('/src/assets/junior.png')" id="juniorpic"></v-img>
@@ -56,6 +58,21 @@ export default {
         bottom: 0;
         height: 100%;
         width: auto;
+    }
+
+    #juniortime {
+        color: #225384;
+    }
+    
+    #juniorleader {
+        color: #225384;
+    }
+
+    #juniormail {
+        color: #225384;
+        font-size: 16px;
+        text-decoration: underline;
+        margin: 0;
     }
 
 @media only screen and (min-width: 688px) {

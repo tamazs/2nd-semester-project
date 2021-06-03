@@ -8,7 +8,7 @@
                 <p id="p3">{{ $t('2021.p3') }}</p>
             </div>
             <div id="Welcomepics">
-                <v-img :src="require('/src/assets/fire.svg')" id="welcomeimg1"></v-img>
+                <v-img :src="require('/src/assets/fire.png')" id="welcomeimg1"></v-img>
                 <v-img :src="require('/src/assets/log.svg')" id="welcomeimg2"></v-img>
                 <v-img :src="require('/src/assets/tent.svg')" id="welcomeimg3"></v-img>
             </div>

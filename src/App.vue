@@ -18,6 +18,7 @@
           <router-link :to="`/${$i18n.locale}/about`" id="desknavlink" exact>{{ $t('nav.about') }}</router-link>
           <router-link :to="`/${$i18n.locale}/gallery`" id="desknavlink" exact>{{ $t('nav.gallery') }}</router-link>
           <router-link :to="`/${$i18n.locale}/contact`" id="desknavlink" exact>{{ $t('nav.contact') }}</router-link>
+          <router-link :to="`/${$i18n.locale}/join`" id="desknavlinkjoin" exact>{{ $t('nav.join') }}</router-link>
           <LanguageSwitcher />
         </v-app-bar>
       </v-card>
@@ -104,7 +105,7 @@ html {
   font-family: 'proxima-nova', sans-serif;
 }
 
-#desknavlink {
+#desknavlink, #desknavlinkjoin {
   display: none;
 }
 
@@ -156,12 +157,29 @@ a {
 }
 
 @media only screen and (min-width: 992px) {
-    #desknavlink {
+    #desknavlink, #desknavlinkjoin {
     display: unset;
     }
 
     #mobilenav {
     display: none;
+    }
+
+    #desknavlinkjoin {
+      color: #1976d2;
+      background-color: white;
+      border-radius: 50px;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border: #1976d2 1px solid;
+    }
+
+    #desknavlinkjoin:hover {
+      color: white;
+      background-color: #1976d2;
+      transition: 0.5s;
     }
 
     a {

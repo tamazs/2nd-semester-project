@@ -150,6 +150,10 @@ export default {
       
   }
 
+  .v-application ul {
+    padding: 0;
+  }
+
   #flag {
       margin-right: 7px;
       
